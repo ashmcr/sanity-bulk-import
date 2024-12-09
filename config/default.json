@@ -1,0 +1,18 @@
+{
+  "import": {
+    "batchSize": 50,
+    "maxRetries": 3,
+    "retryDelay": 1000
+  },
+  "logging": {
+    "directory": "logs",
+    "maxSize": "20m",
+    "maxFiles": "14d",
+    "errorLogName": "error.log",
+    "combinedLogName": "combined.log"
+  },
+  "api": {
+    "timeout": 30000,
+    "concurrentRequests": 5
+  }
+} 

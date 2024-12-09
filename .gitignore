@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Data files
+data/*
+!data/.gitkeep
+
+# OS files
+.DS_Store 
